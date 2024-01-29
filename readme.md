@@ -13,7 +13,7 @@ Unlike other redirection TSRs like TNDY or TNDLPT, it does not use Virtual 8086 
 
 ### Usage
 
-If your Tandy Sound card is mapped to the port 1C0, simply running `TNDYBP` should be enough. Available command line options:
+If your Tandy Sound card is mapped to the port 2C0, simply running `TNDYBP` should be enough. Available command line options:
 
 * `/P[hex]` - redirect to Tandy Sound at port [hex] (default 0x2C0)
 
